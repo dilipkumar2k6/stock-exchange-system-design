@@ -12,6 +12,7 @@
 # Matching Engine
 - Place to show matching on selling and bying
  ![](assets/matching-machine-example.png)
+ 
 - Should able to add order
 - Cancel order
 - Split order
@@ -24,8 +25,10 @@
     - Sell at low price should come first
 How to match?
     - Match index of both array one by one
+
     ![](assets/matching-machine-algo-1.png)
     - Compare first order
+
     ![](assets/matching-machine-algo-2.png)
     - Use priority queue to manage buy and sell stocks
 - Since we want to perform matching algo, efficient, we would like to perform these operatio in memory
